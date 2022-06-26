@@ -18,7 +18,7 @@
 
 
 /* USB Device descriptor parameter */
-#define PRODUCT_ID      0x0102
+#define PRODUCT_ID      0x0201
 #define DEVICE_VER      0x0100
 
 /* key matrix pins */
@@ -29,3 +29,10 @@
 #define DRIVER_1_LED_TOTAL 59
 #define DRIVER_2_LED_TOTAL 24
 #define DRIVER_LED_TOTAL (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
+
+/* Encoder used pins */
+#define ENCODERS_PAD_A { E6 }
+#define ENCODERS_PAD_B { B7 }
+
+/* Specifies the number of pulses the encoder registers between each detent */
+#define ENCODER_RESOLUTION 4
